@@ -1,0 +1,150 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# ============================================================
+# Isaac Lab / Isaac Sim
+# ============================================================
+# Isaac Sim cache and logs
+_isaac_sim/
+kit/
+logs/
+.nvidia-omniverse/
+omniverse_cache/
+
+# Isaac Lab generated files
+*.usd
+*.usdc
+*.usdz
+*.usda
+
+# Nucleus cache
+nucleus_cache/
+
+# Telemetry / profiling
+*.nvvp
+*.qdrep
+
+# ============================================================
+# Machine Learning / Training
+# ============================================================
+# Experiment outputs
+runs/
+outputs/
+results/
+checkpoints/
+saved_models/
+wandb/
+mlruns/
+lightning_logs/
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.npz
+*.npy
+
+# TensorBoard
+*.tfevents.*
+
+# ============================================================
+# ROS2 (if used alongside Isaac Lab)
+# ============================================================
+install/
+log/
+devel/
+*.pyc
+*.bag
+*.db3
+
+# ============================================================
+# Data / Assets (large files)
+# ============================================================
+data/
+datasets/
+*.mp4
+*.avi
+*.mov
+*.hdf5
+*.h5
+*.bin
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.rar
+
+# ============================================================
+# IDE / Editor
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Environment & Secrets
+# ============================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+config/local_*.yaml
+config/local_*.yml
+
+# ============================================================
+# Misc
+# ============================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+.cache/
+tmp/
+temp/
